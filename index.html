@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RockPaperScissors</title>
+  <script src='index.js'></script>
+</head>
+<body>
+  <section class='controller'>
+    <div class='title'>
+      <h1>Welcome to Rock Paper Scissors</h1>
+    </div>
+    <div class='time_option'>
+      <p>Choose your time and click start to play</p>
+      <h5>Choose Time: </h5>
+      <label><input id='time-1' type='radio' name='time' value='10' checked>10 Secs</label>
+      <label><input id='time-2' type='radio' name='time' value='20'>20 Secs</label>
+      <label><input id='time-3' type='radio' name='time' value='30'>30 Secs</label>
+    </div>
+    <div class='start-button'>
+      <button type='start'>Start Game</button>
+    </div>
+  </section>
+  <section id='rockPaperScissorsBoard'>
+    <div id='player_time_remaining'>Time Left: 00 : 00</div>
+    <div id='player_score'>scores: 0</div>
+    <div id='result'></div>
+    <div class='action-buttons'>
+      <button type='option' value='Rock'>Rock</button>
+      <button type='option' value='Paper'>Paper</button>
+      <button type='option' value='Scissors'>Scissors</button>
+    </div>
+  </section> 
+</body>
+</html>
